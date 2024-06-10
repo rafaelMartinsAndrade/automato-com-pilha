@@ -200,7 +200,7 @@ def tratarS(gram):
     comp += [alf, est, L1[0], L1[1], est_finais, L1[2:len(L1)]]
     return comp
 
-gramaticaAutomato, producoes = lerArquivo("arquivoAP.txt")
+gramaticaAutomato, producoes = lerArquivo("arquivo_AP.txt")
 componentes = tratarS(gramaticaAutomato)
 
 # Instancia o autômato
